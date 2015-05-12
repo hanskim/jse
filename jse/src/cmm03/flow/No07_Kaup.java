@@ -10,7 +10,7 @@ public class No07_Kaup {
 	Scanner scanner = new Scanner(System.in);
 
 	No07_Kaup() {
-		this(0, 0);
+		this(0, 0); // 몇개의 매개변수가 모르기 때문에 일종의  생성자의 매개변수를 이 경우 2개로 설정해놓고 아래 2개의 메소드를 구현해놓음.
 	}
 
 	public No07_Kaup(double i, double j) {
