@@ -3,7 +3,7 @@ package cmm03.flow;
 import java.util.Scanner;
 
 public class No07_Kaup {
-
+	
 	double height;
 	double weight;
 	int idx;
