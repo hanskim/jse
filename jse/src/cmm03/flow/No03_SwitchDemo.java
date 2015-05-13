@@ -11,6 +11,7 @@ public class No03_SwitchDemo {
 		int avg = scanner.nextInt();
 		int val = 0;
 		int avg2= avg ; 
+		scanner.close();
 
 		do {
 			avg /= 10;

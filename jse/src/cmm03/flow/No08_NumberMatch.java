@@ -32,6 +32,7 @@ public class No08_NumberMatch {
 				System.out.println(" 3회 모두 참여했습니다.!!" + "\n게임패배" + "\n게임종료! ");
 				break;
 			}
+			scanner.close();
 			
 		}
 	}
