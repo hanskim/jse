@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class No08_NumberMatch {
 	public static void main(String[] args) {
+		
 		No08_NumberMatchVO vo = new No08_NumberMatchVO();
 
 		for (int i = 0; i < 3; i++) {
