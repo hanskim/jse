@@ -9,14 +9,10 @@ public class No07_Kaup {
 	int idx;
 	Scanner scanner = new Scanner(System.in);
 
-	No07_Kaup() {
-		this(0, 0); // 몇개의 매개변수가 모르기 때문에 일종의  생성자의 매개변수를 이 경우 2개로 설정해놓고 아래 2개의 메소드를 구현해놓음.
-	}
-
 	public No07_Kaup(double i, double j) {
 		this.height = i;
 		this.weight = j;
-		this.idx = (int) (weight / ((Math.pow(height, 2)) * 10000));
+		this.idx = (int) (weight/(Math.pow(height, 2)) * 10000);
 	}
 
 	public double getHeight() {
@@ -68,16 +64,15 @@ public class No07_Kaup {
 		double height = scanner.nextDouble();
 		System.out.println(" 몸무게를 입력하세요 : ");
 		double weight = scanner.nextDouble();
-		
 
 		No07_Kaup kaup = new No07_Kaup(height, weight);
 		System.out.print(kaup.toString());
 		System.out.println("완료");
 		scanner.close();
-		
-		//  static영역에서는 가급적 변수 선언 하지 마라!!
-		//  scanner 의 경우 메인에서 구현하게 하라!! 
-		//  메인에 있는 걸 가급적 객체화하라!!
+
+		// static영역에서는 가급적 변수 선언 하지 마라!!
+		// scanner 의 경우 메인에서 구현하게 하라!!
+		// 메인에 있는 걸 가급적 객체화하라!!
 
 	}
 }

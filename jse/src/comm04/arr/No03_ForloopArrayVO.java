@@ -1,9 +1,9 @@
 package comm04.arr;
 
 public class No03_ForloopArrayVO {
-
-	private int a, b, c, d, e;
-
+	
+	private int a, b, c, d, e;  // 멤변
+	
 	public int getA() {
 		return a;
 	}
@@ -41,6 +41,7 @@ public class No03_ForloopArrayVO {
 	}
 
 	public void setE(int e) {
+		
 		this.e = e;
 	}
 
@@ -54,12 +55,7 @@ public class No03_ForloopArrayVO {
 		//int[] arr = new int[5];
 		int[] arr ={getA(),getB(),getC(),getD(),getE()};
 		int sum = 0;
-		
-		
-		
-	
-		
-		
+
 		// 입력받은 5개의 숫자의 합
 		for (int i = 0; i < arr.length; i++) {
 			sum += arr[i];
