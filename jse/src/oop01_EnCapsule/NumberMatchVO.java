@@ -1,4 +1,4 @@
-package oop01_game;
+package oop01_EnCapsule;
 
 public class NumberMatchVO {
 
@@ -10,7 +10,7 @@ public class NumberMatchVO {
 
 	public void setPlayer(int player) {
 		if (player < 1 || player > 3) {
-			System.out.println("1부터 5까지 정수만 입력해야함");
+			System.out.println("1부터 3까지 정수만 입력해야함");
 		} else {
 			this.player = player;
 		}
@@ -20,12 +20,8 @@ public class NumberMatchVO {
 		return com;
 	}
 
-	public void setCom(int com) {
-
-	}
-
 	public void setCom() {
-		this.com = (int) ((Math.random() * 5) + 1);
+		this.com = (int) ((Math.random() * 3) + 1);
 	}
 
 	public int getCount() {
