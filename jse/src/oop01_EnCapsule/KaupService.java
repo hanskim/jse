@@ -16,7 +16,7 @@ public class KaupService {
 		vo.setWeight(weight);
 		vo.setIdx(weight, height);
 		vo.setMsg();
-		System.out.println(vo.getIdx());
+		System.out.println(vo.getIdx()); // 여기에 왜 ;이 없어도 되나 ?? setter엑션을 취하자 마자 getter도 실행 ?
 		System.out.println(vo.toString());  // toString은 내장메소드라 객체만 써도 됨.
 		System.out.println("완료");
 		scanner.close();
