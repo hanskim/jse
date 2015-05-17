@@ -1,25 +1,29 @@
 package oop01_EnCapsule;
 
+// 계산, 연산 등 수행
 public class PayService {
-
-	// 계산, 연산 등 수행
-	PayVO vo = new PayVO();
 	
-	public String servicename(String String) {
+	//PayVO vo = new PayVO();  해당 문제에서 VO는 실질적으로 필요없음
 	
-		return vo.getName()  ;
+	
+	
+	public String Name(String String) {
+	
+		return String  ;
 	}
 	
-	public int servicesalary(int salary ) {
+	public int Salary(int salary ) {
 		
-		return vo.getSalary();
+		return salary;
 	}
 
-	public String showTax() {
-		// TODO Auto-generated method stub
-		return vo.TAX;
+	public int ShowTax(int nextInt) {
+		return (int) (nextInt*0.1);
 	}
-	
+
+	public int ShowIncome(int nextInt) {
+		return nextInt-ShowTax(nextInt) ;
+	}
 
 }
 	

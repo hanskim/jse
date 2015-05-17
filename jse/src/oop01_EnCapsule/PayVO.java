@@ -13,11 +13,26 @@ public class PayVO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getSalary() {
+	public int salary() {
 		return salary;
 	}
 	public void setSalary(int salary ) {
 		this.salary = salary ;
+	}
+	public double getTax() {
+		return tax;
+	}
+	public void setTax(double tax) {
+		this.tax = tax;
+	}
+	public double getIncome() {
+		return income;
+	}
+	public void setIncome(double income) {
+		this.income = income;
+	}
+	public String getSalary() {
+		return null;
 	}
 
 
