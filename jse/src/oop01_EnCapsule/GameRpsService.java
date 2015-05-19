@@ -10,13 +10,17 @@ package oop01_EnCapsule;
 public class GameRpsService {
 
 	// 숫자값에 따른 가위, 바위, 보 경로로직
+	public void ErrorMsg1(int playerValue) {
+		System.out.println("잘못입력하셨습니다. 재입력 필!!");
+	}
+
+	public void ErrorMsg2(int playerValue) {
+		System.out.println("입력오류 : 숫자를 입력하세요!");
+	}
 
 	public int ShowComValue() {
 		return (int) ((Math.random() * 10) % 3) + 1; // 컴퓨터의 1~3까지 임의수 리턴
-	}
-
-	public void ErrorMsg1(int playerValue) {
-		System.out.println("잘못입력하셨습니다. 재입력 필!!");
+		                                             // 또는 (int) Math.random()*3 +1
 	}
 
 	public String ShowRpsValue(int playerValue) {
@@ -39,21 +43,16 @@ public class GameRpsService {
 		String msg = "";
 
 		if (playerValue == comValue) {
-			msg = "비겼습니다.";
+			msg = "없습니다.(비겼습니다).";
 
 		} else if ((playerValue == 1 && comValue == 3)
 				|| (playerValue == 2 && comValue == 1)
 				|| (playerValue == 3 && comValue == 2)) {
-			msg = "당신..";
+			msg = "당신!!";
 		} else {
-			msg = "컴퓨터.";
+			msg = "컴퓨터!!";
 		}
 		return msg;
-	}
-
-	public void ErrorMsg2(int playerValue) {
-		System.out.println("입력오류 : 숫자를 입력하세요!");
-		
 	}
 
 }

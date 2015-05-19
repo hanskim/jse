@@ -1,4 +1,4 @@
-package oop01_Syntex;
+package oop02_Syntex;
 
 /*
  * Date : 2015.05.18

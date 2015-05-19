@@ -1,4 +1,4 @@
-package oop01_Syntex;
+package oop02_Syntex;
 
  //getter setter사용 불가
 // 생성자료

@@ -1,4 +1,4 @@
-package oop01_Syntex;
+package oop02_Syntex;
 
 public class AverageD {
 	public static void main(String[] args) {

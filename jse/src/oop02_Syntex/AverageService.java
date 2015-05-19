@@ -1,4 +1,4 @@
-package oop01_Syntex;
+package oop02_Syntex;
 
 //vo俊 乐带 avg() 皋家靛客  total() 皋家靛 贸府
 

@@ -1,4 +1,4 @@
-package oop01_Syntex;
+package oop02_Syntex;
 
 public class Pay {
 	

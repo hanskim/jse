@@ -1,4 +1,4 @@
-package oop01_Syntex;
+package oop02_Syntex;
 
 /* 멤버변수에 관한 자바 튜토리얼 냉용
  *  " There are several kinds of variable "
