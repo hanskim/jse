@@ -52,6 +52,13 @@ public class GameRpsService {
 		} else {
 			msg = "컴퓨터!!";
 		}
+		
+		/* switch (playerValue -comValue)
+		 * String msg = "";   
+		 * case 0 : break ;
+		 * case 1 : -2 break ;
+		 * 이러한 방식으로도 구현 가능  ...
+		 */
 		return msg;
 	}
 
