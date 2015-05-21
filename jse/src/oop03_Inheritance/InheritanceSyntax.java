@@ -15,7 +15,6 @@ package oop03_Inheritance;
  * 자바 클래스의 상속  : extends 
  * 자바에서의 인터페이스상속 :  implements
  */
-
 public class InheritanceSyntax {
 
 }
