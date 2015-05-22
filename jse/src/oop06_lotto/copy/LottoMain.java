@@ -13,7 +13,7 @@ public class LottoMain {
 		lotto.extractLotto(money);
 		System.out.println("로또번호 출력 :");
 		lotto.printLotto();
-
+		System.out.println("");
 	}
 
 }
