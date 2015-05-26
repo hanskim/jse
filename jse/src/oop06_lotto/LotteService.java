@@ -1,4 +1,4 @@
-package oop06_lotto.copy;
+package oop06_lotto;
 
 public interface LotteService {
 	// int money 만큼 로또용지를 출력하는 메소드 ,1000원단위

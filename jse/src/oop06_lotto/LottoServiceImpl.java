@@ -1,4 +1,4 @@
-package oop06_lotto.copy;
+package oop06_lotto;
 
 public class LottoServiceImpl implements LotteService {
 	private int money;
@@ -32,7 +32,6 @@ public class LottoServiceImpl implements LotteService {
 
 	@Override
 	public int getRandomNum() {
-		// TODO Auto-generated method stub
 		return (int) ((Math.random() * 45) + 1);
 	}
 

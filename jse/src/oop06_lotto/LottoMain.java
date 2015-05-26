@@ -1,4 +1,4 @@
-package oop06_lotto.copy;
+package oop06_lotto;
 
 import java.util.Scanner;
 
