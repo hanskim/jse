@@ -21,13 +21,16 @@ public class LottoServiceImpl implements LotteService {
 
 	@Override
 	public void printLotto() {
-		// TODO Auto-generated method stub
+		
+		
 	}
 
 	@Override
 	public void inputMoney(int money) {
 		this.money = money;
 		int[][] lottos = new int[money / 1000][6];
+		System.out.println("총" +this.money/1000 + "회 게임 진행" );
+		System.out.println("거스름돈:" + this.money%1000 );
 	}
 
 	@Override
