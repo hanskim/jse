@@ -1,4 +1,4 @@
-package oop07_trycatch.copy;
+package oop05_polymorphism.trycatch;
 
 /*
  * finally 

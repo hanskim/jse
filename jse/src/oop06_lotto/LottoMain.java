@@ -10,9 +10,11 @@ public class LottoMain {
 		System.out.println("얼마치 로또게임 하겠습니까 ? ▶");
 		Scanner scan = new Scanner(System.in);
 		int money = scan.nextInt();
-		lotto.extractLotto(money);
-		System.out.println("로또번호 출력 :");
+		lotto.inputMoney(money);
+		lotto.getCount(money);
 		lotto.printLotto();
+		lotto.extractLotto(money);
+		
 		System.out.println("");
 	}
 

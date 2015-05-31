@@ -1,4 +1,4 @@
-package oop07_trycatch.copy;
+package oop05_polymorphism.trycatch;
 
 /*예외는 프로그램 개발시 발생하는 에러와는 다른 현상
  * 프로그램 개발 시 발생하는 에러에 대한 대처는 필수
