@@ -1,4 +1,4 @@
-package oop07_trycatch.copy;
+package oop05_polymorphism.trycatch;
 /*
  * 프로그램 오류 발생 시점에 따라 컴파일 에러와 런타임 에러로 나뉨
  * 
